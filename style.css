@@ -1,0 +1,70 @@
+/*CSS elements for the navigation bar.
+Same for all webpages. */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    display:inline;
+    float:right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+}
+li a{
+    display:block;
+    padding:14px 16px;
+    color:aliceblue;
+    text-align: center;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(9, 90, 46);
+}
+/*Footer CSS elements*/
+.footer{
+    width:100%;
+    background-color: black;
+    left: 0;
+    bottom: 0;
+}
+/* CSS elements for the home page.
+The box is unique to the home page */
+body{
+    background-color: black;
+}
+.box-a {
+    width: 1300px;
+    height: 800px;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    margin-left: 300px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgb(9, 90, 46);
+    border-radius: 10px;
+}
+h1{
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color:white;
+    margin-top: 10px;
+}
+h2{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+h4{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    font-style: italic;
+}
+
