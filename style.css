@@ -12,11 +12,11 @@ li{
     float:right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 1vw;
 }
 li a{
     display:block;
-    padding:14px 16px;
+    padding:1vw 1vw;
     color:aliceblue;
     text-align: center;
     text-decoration: none;
@@ -36,33 +36,34 @@ The box is unique to the home page */
 body{
     background-color: black;
 }
+/*webpage content*/
 .box-a {
-    width: 1300px;
-    height: 800px;
-    padding: 10px;
+    width: 70vw;
+    height: 40vw;
+    padding: 1vw;
     top: 50%;
     left: 50%;
-    margin-left: 300px;
-    margin-top: 20px;
+    margin-left: 15vw;
+    margin-top: 2vw;
     display: inline-block;
     vertical-align: middle;
     background-color: rgb(9, 90, 46);
-    border-radius: 10px;
+    border-radius: 1vw;
 }
 h1{
-    font-size: 65px;
+    font-size: 3.5vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: underline;
     color:white;
-    margin-top: 10px;
+    margin-top: 1vw;
 }
 h2{
-    font-size: 35px;
+    font-size: 2vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
 }
 h4{
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:white;
     font-style: italic;
