@@ -2,6 +2,45 @@
 <head>
     <title>Portfolio</title>
 </head>
+
+<body>
+<!--top navigation bar-->
+<nav class="nav background">
+    <ul class="nav-list">
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="index.html">HOME</a></li>
+    </ul>
+</nav>
+    <!--webpage content columns left to right-->
+    <h1 style="color:white; font-size: 3rem;" align="center">Projects I have worked on:</h1><br>
+    <div class="container">
+        <div class="row"></div>
+        <!--make sure to change images later on-->
+            <div class="card-01">
+                <h3 style="color: white; font-size: 2.5rem;" align="center">The First Project</h3><br>
+                <img style="border: solid white; height: 15rem; width: 15rem;" src="https://discovery.sndimg.com/content/dam/images/discovery/fullset/2021/8/3/GettyImages-452414701.jpg.rend.hgtvcom.616.616.suffix/1628037394691.jpeg"><br>
+                <p style="color:white; margin-left: 1vw; margin-right: 1vw; font-size: 1.5rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="card-02">
+                <h3 style="color: white; font-size: 2.5rem;" align="center">The Second Project</h3><br>
+                <img style="border: solid white; height: 15rem; width: 15rem;" src="https://discovery.sndimg.com/content/dam/images/discovery/fullset/2021/8/3/GettyImages-452414701.jpg.rend.hgtvcom.616.616.suffix/1628037394691.jpeg"><br>
+                <p style="color:white; margin-left: 1vw; margin-right: 1vw; font-size: 1.5rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="card-03">
+                <h3 style="color: white; font-size: 2.5rem;" align="center">The Third Project</h3><br>
+                <img style="border: solid white; height: 15rem; width: 15rem;" src="https://discovery.sndimg.com/content/dam/images/discovery/fullset/2021/8/3/GettyImages-452414701.jpg.rend.hgtvcom.616.616.suffix/1628037394691.jpeg"><br>
+                <p style="color:white; margin-left: 1vw; margin-right: 1vw; font-size: 1.5rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+    <!--creating a footer with contact information-->
+    <section class="footer">
+        <p align="center" style="color:white; font-size:1.5rem; margin-left:10rem;">Contact me at 669-294-7886 or at emily020kim@gmail.com! | <img style="display:inline; margin-right:10rem; margin-bottom:-0.5rem;" height="30rem" width="30rem" src="https://www.iconpacks.net/icons/2/free-linkedin-logo-icon-2430-thumb.png"></p>
+    </section>
+</body>
+
 <style>
 /*CSS elements for the navigation bar.
 Same for all webpages. */
@@ -12,23 +51,27 @@ ul{
     overflow: hidden;
     background-color: black;
 }
+
 li{
     display:inline;
     float:right;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
-    font-size: 1vw;
+    font-size: 1rem;
 }
+
 li a{
     display:block;
-    padding:1vw 1vw;
+    padding:1rem 1rem;
     color:aliceblue;
     text-align: center;
     text-decoration: none;
 }
+
 li a:hover{
     background-color: rgb(9, 90, 46);
 }
+
 /*Footer CSS elements*/
 .footer{
     width:100%;
@@ -36,73 +79,36 @@ li a:hover{
     left: 0;
     bottom: 0;
 }
+
 /*Portfolio webpage CSS elements*/
 body{
-    background-color: black;
+    background: black;
 }
-h2{
-    color:white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2vw;
-}
-h3{
-    color:white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-decoration: underline;
-    font-size: 1.5vw;
-}
+    
 /*Three box sections left to right*/
-.boxA{
-    width: 20vw;
-    height: 50vw;
-    background-color:rgb(9, 90, 46);
-    float:left;
-    margin-right: 7vw;
-    margin-left: 12vw;
-    border-radius: 1vw;
+.card-01{
+    background:rgb(9, 90, 46);
+    margin: 5rem;
+    border-radius: 1rem;
 }
-.boxB{
-    width: 20vw;
-    height: 50vw;
-    background-color:rgb(9, 90, 46);
-    float:left;
-    margin-right: 7vw;
-    border-radius: 1vw;
-}
-.boxC{
-    width: 20vw;
-    height: 50vw;
-    background-color:rgb(9, 90, 46);
-    float:left;
-    margin-right: 7vw;
-    border-radius: 1vw;
-}
-</style>
 
-<body>
-<!--top navigation bar-->
-<nav class="nav background">
-    <ul class="nav-list">
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#about">ABOUT</a></li>
-        <li><a href="portfolio">PORTFOLIO</a></li>
-    </ul>
-</nav>
-    <h2 align="center">Projects I have worked on:</h2><br>
-    <!--webpage content boxes left to right-->
-    <section class="boxA">
-        <h3 align="center">The First Project</h3><br>
-        <img style="margin-left: 4.5vw; border: solid white; height: 10vw; width: 10vw;" src="https://discovery.sndimg.com/content/dam/images/discovery/fullset/2021/8/3/GettyImages-452414701.jpg.rend.hgtvcom.616.616.suffix/1628037394691.jpeg"><br>
-        <p style="color:white; margin-left: 1vw; margin-right: 1vw; font-size: 1vw;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
-    </section>
-    <section class="boxB">
-        <h3 align="center">The Second Project</h3><br>
-        <img style="margin-left: 4.5vw; border: solid white; height: 10vw; width: 10vw;" src="https://discovery.sndimg.com/content/dam/images/discovery/fullset/2021/8/3/GettyImages-452414701.jpg.rend.hgtvcom.616.616.suffix/1628037394691.jpeg"><br>
-        <p style="color:white; margin-left: 1vw; margin-right: 1vw; font-size: 1vw;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-    <section class="boxC">
-        <h3 align="center">The Third Project</h3><br>
-        <img style="margin-left: 4.5vw; border: solid white; height: 10vw; width: 10vw;" src="https://discovery.sndimg.com/content/dam/images/discovery/fullset/2021/8/3/GettyImages-452414701.jpg.rend.hgtvcom.616.616.suffix/1628037394691.jpeg"><br>
-        <p style="color:white; margin-left: 1vw; margin-right: 1vw; font-size: 1vw;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-</body>
+.card-02{
+    background:rgb(9, 90, 46);
+    margin: 5rem;
+    border-radius: 1rem;
+}
+
+.card-03{
+    background:rgb(9, 90, 46);
+    margin: 5rem;
+    border-radius: 1rem;
+}
+
+@media (max-width: 450px) {
+    p {
+        font-size: 0.5rem;
+    }
+}
+
+</style>
+</html>
