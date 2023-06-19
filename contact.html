@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Me!</title>
+  </head>  
+
+  <body>
+    <!--top navigation bar-->
+    <nav class="nav background">
+        <ul class="nav-list">
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="index.html">HOME</a></li>
+        </ul>
+    </nav>
+    <!--card layout start-->
+    <div class="container">
+        <div class="row">
+            <div class="card-01">
+                <h1 style="color: white;" align="center">LinkedIn</h1>
+                <h3 style="color: white;" align="center">LinkedIn: https://www.linkedin.com/in/emily-kim02/</h3>
+                <h3 style="color: white;" align="center">Phone: (669)294-7886</h3>
+                <h3 style="color: white;" align="center">Email: emily020kim@gmail.com</h3>
+                <h3 style="color: white;" align="center">GitHub: https://github.com/Emily-Kim-Personal-Website/personal-website</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card-02">
+                <!--Creating a contact form submission-->
+                <h3 style="color: white; text-decoration: underline; margin-left: 2rem;">Contact Me!</h3>
+                <form class="contact-form">
+                    <div class="contact-form">
+                      <label for="name" style="color:white; margin-left: 2rem;">Enter Your Name: </label><br>
+                      <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="contact-form">
+                      <label for="email" style="color:white; margin-left: 2rem;">Enter Your Email: </label><br>
+                      <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="contact-form">
+                        <label for="message" style="color:white; margin-left: 2rem;">Enter Message: </label><br>
+                        <textarea style="margin-left: 2rem;" placeholder='Enter Message...' rows="5" cols="33"></textarea>
+                    </div>
+                    <div class="contact-form">
+                        <input type="submit" value="Submit" onclick="myFunction()"/>
+                        <script>
+                            function myFunction() {
+                                window.location.href= "contact-submission.html";
+                            }
+                        </script>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+  </body>
+
+<style>
+/*CSS elements for the navigation bar.
+Same for all webpages. */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li{
+    display:inline;
+    float:right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    font-size: 1rem;
+}
+
+li a{
+    display:block;
+    padding:1rem 1rem;
+    color:aliceblue;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: rgb(9, 90, 46);
+}
+
+/*body components*/
+body{
+    background: black;
+}
+
+/*flexbox content*/
+.container{
+    margin: 20px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-01{
+    background: rgb(9, 90, 46);
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px (0, 0, 0, 0.2);
+    border: solid white;
+    margin-top: 50px;
+}
+
+.card-02{
+    background: rgb(9, 90, 46);
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px (0, 0, 0, 0.2);
+    border: solid white;
+}
+
+input {
+    margin-left: 2rem;
+}
+
+/*responsive design*/
+@media (max-width: 450px) {
+    
+}
+</style>
+</html>
